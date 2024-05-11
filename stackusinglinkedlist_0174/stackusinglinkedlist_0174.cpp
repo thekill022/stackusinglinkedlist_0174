@@ -123,6 +123,10 @@ int main()
 				cout << "Stact is Empty. No top value." << endl;
 			}
 			break;
+			//19. kondisi jika choice = 4
+		case 4:
+			cout << "Exiting Program." << endl;
+			break;
 		default:
 			break;
 		}
