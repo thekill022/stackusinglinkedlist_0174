@@ -14,7 +14,11 @@ public:
 	}
 };
 
+//4. inisialisasi class Stact
+class Stack {
 
+
+};
 
 int main()
 {
