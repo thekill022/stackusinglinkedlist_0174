@@ -96,6 +96,12 @@ int main()
 		//15. pembuatan kondisional statement choice
 		switch (choice)
 		{
+			//16. kondisi jika choice = 1
+		case 1:
+			cout << "Enter the value to push : ";
+			cin >> value;
+			stact.push(value);
+			break;
 		default:
 			break;
 		}
