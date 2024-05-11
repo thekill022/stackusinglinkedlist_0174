@@ -17,6 +17,9 @@ public:
 //4. inisialisasi class Stact
 class Stack {
 
+private:
+	//5. inisilisasi Node top sebagai private untuk mengecek ujung dari Stact
+	Node* top;
 
 };
 
