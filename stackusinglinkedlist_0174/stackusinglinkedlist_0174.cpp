@@ -112,6 +112,17 @@ int main()
 				cout << "Stact is Empty. Cannot pop." << endl;
 			}
 			break;
+			//18. kondisi jika choice = 3
+		case 3:
+			if (!stact.isEmpty())
+			{
+				stact.peek();
+			}
+			else
+			{
+				cout << "Stact is Empty. No top value." << endl;
+			}
+			break;
 		default:
 			break;
 		}
