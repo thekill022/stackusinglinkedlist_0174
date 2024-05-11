@@ -21,6 +21,12 @@ private:
 	//5. inisilisasi Node top sebagai private untuk mengecek ujung dari Stact
 	Node* top;
 
+public:
+	Stack() {
+		//6. inisilisasi nilai awal top sebagai NULL
+		top = NULL;
+	
+
 };
 
 int main()
