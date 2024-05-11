@@ -47,6 +47,25 @@ public:
 		top = top->next;
 	}
 
+	//9. pembuatan prosedur peek
+	void peek() {
+		if (top == NULL)
+		{
+			cout << "List is Empty." << endl;
+		}
+		else
+		{
+			Node* current = top;
+			while (current != NULL)
+			{
+				cout << current->data << " " << endl;
+				current = current->next;
+			}
+			cout << endl;
+		}
+	}
+	
+
 };
 
 int main()
